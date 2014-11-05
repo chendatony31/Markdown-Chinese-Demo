@@ -1,38 +1,4 @@
 针对中文,演示Markdown的各种语法
-## Dstream前端接口
-
-### 获取用户所在的group
-Request URL
-```javascript
-    /api/dstream/group
-```
-
-POST
-```javascript
-
-
-```
-Response
-```javascript
-
-	成功：
-    {
-		"success": true,
-		"result": [
-		 "group1",
-		 "group2"
-		]
-	}
-
-
-	失败：
-	{
-        "success": false,
-        "message": {
-            "global":"错误文案..."
-        }
-    }
-```
   
 大标题
 ===================================
